@@ -139,11 +139,11 @@ function removeDuplicates(arr) {
 
 //第十题 写一个函数 chunkArray(arr, size)，将数组拆分成多个长度为 size 的子数组。
 function chunkArray(arr, size) {
-  const result = [];
+  const result = []
   for (let i=0;i<arr.length;i+=size) {
-    result.push(arr.slice(i, i + size));
+    result.push(arr.slice(i, i+size))
   }
-  return result;
+  return result
 }
 
 
